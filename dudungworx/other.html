@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <style>
+        div.absolute {
+            position: absolute;
+            width: 800px;
+            height: 600px;
+            border: 3px solid green;
+        }
+        *{
+            font-size:  30px;
+        }
+        body {
+            background-image: url(https://wallpaperaccess.com/full/1271317.jpg);
+        }
+    </style>
+</head>
+
+<body>
+    <h2> using position: absolute;</h2>
+    <p style="background-color: rgb(255,149,0);">An element with position: absolute; <b>is positioned relative to the nearest positioned ancestor</b></p>
+
+    <div class="relative">this div element has position: relative;
+        <p>
+            position: relative;<br>width: 800px;<br> height: 600px;<br> border: 3px solid green;<br>
+        </p>
+        <div class="absolute">this div element has position: absolute;
+            <p>
+                position: absolute;<br> bottom: 30px;<br> right: 0;<br> border: 3px solid red;<br>
+            </p>
+            </div>
+        </div>
+
+</body>
+</html>
